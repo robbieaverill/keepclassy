@@ -1,0 +1,30 @@
+{
+  "name": "silverstripe-keepclassy",
+  "description": "Keep your classes classy",
+  "main": "./client/src/bundles/bundle.js",
+  "author": "Robbie Averill",
+  "engines": {
+    "node": ">=6.x"
+  },
+  "scripts": {
+    "build": "yarn && NODE_ENV=production webpack -p --bail --progress",
+    "watch": "NODE_ENV=development webpack --watch --progress"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.7.4",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "@silverstripe/eslint-config": "^0.0.4",
+    "@silverstripe/webpack-config": "^0.8.0",
+    "webpack": "^2"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}

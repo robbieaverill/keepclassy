@@ -1,0 +1,22 @@
+{
+    "name": "robbieaverill/silverstripe-keepclassy",
+    "description": "Keep your classes classy",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["aprilfools"],
+    "require": {
+        "silverstripe/framework": "^4.0",
+        "silverstripe/admin": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RobbieAverill\\KeepClassy\\": "src/"
+        }
+    },
+    "extra": {
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

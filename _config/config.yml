@@ -1,0 +1,5 @@
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - robbieaverill/silverstripe-keepclassy:client/dist/js/bundle.js
+  extra_requirements_css:
+    - robbieaverill/silverstripe-keepclassy:client/dist/styles/bundle.css
