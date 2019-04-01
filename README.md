@@ -1,3 +1,7 @@
+# This module was an April Fools joke!
+
+---
+
 # Keeping SilverStripe classy! 🕶
 
 ![Travis (.org)](https://img.shields.io/travis/silverstripe/silverstripe-framework.svg)
