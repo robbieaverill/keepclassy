@@ -67,6 +67,11 @@ RobbieAverill\KeepClassy\CoatCheck:
    all_modules: true
    # Blanket rule: disable for all modules (overrides whitelist and blacklist configuration)
    all_modules: false
+
+
+## Userguide
+
+* [Userguide](docs/en/index.md)
 ```
 
 ## License
